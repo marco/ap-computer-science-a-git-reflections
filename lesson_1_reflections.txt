@@ -1,0 +1,14 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Viewing a diff between different versions of a file enables you to see what
+    was changed. If you know that a bug was introduced in the newest version,
+    using a diff can make it much easier to catch the bug. This is because
+    you know that a change shown by the diff causes the bug, so instead of
+    searching through all of the code for a bug, you only have to check the
+    new code in the diff.
+
+    For example, if I add a bug in the newest version of file and commit it,
+    someone else could check the diff between my diff and the one before it
+    in order to find possible causes. This can speed up the development
+    process.
