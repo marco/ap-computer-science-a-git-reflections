@@ -12,3 +12,16 @@ was introduced?
     someone else could check the diff between my diff and the one before it
     in order to find possible causes. This can speed up the development
     process.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Having access to the entire history of a project enables you to be more
+    efficient because it allows you to break up the history into smaller, more
+    manageable chunks. By seeing the entire history of a project, it is easier
+    to see how a project got to the current state.
+
+    For example, if I need to see exactly why a function was added to a
+    codebase, I could use git to see in which commit that function was added.
+    By doing this, I could more efficiently understand the history and context
+    of that function.
