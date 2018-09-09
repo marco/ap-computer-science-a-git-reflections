@@ -45,3 +45,20 @@ Docs does?
 
     Overall, I think that for long-term project sustainability, manual
     commits with descriptive commit messages are the most effective method.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file
+separately?
+
+    I think that allowing for committing multiple files at once is useful
+    because one feature can often require changes to multiple files. For
+    instance, a programmer might want to update both backend and frontend
+    code for a new feature, or add functionality and tests in one commit. If
+    Git required only committing one file at a time, many projects would have
+    much more commits than they do!
+
+    On the other hand, a program like Google Docs might treat each file
+    separately for simplicity's sake. Many users would not want to manage
+    multiple files simultaneously. Additionally, since Google Docs does not
+    use a manual committing system, saving multiple files at once would be
+    counter-intuitive.
