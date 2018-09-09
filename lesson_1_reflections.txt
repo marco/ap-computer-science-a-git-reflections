@@ -62,3 +62,22 @@ separately?
     multiple files simultaneously. Additionally, since Google Docs does not
     use a manual committing system, saving multiple files at once would be
     counter-intuitive.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    The `git log` command can be used to show the entire commit history of a
+    project. By using `git log`, a programmer can find a specific commit's
+    title and description. This allows a programmer to get a sense of the
+    changes to a project over time. It can also help to identify where a
+    bug was first introduced to a codebase.
+
+    `git diff` shows the current difference between the last commit and the
+    working index. This is useful for reviewing code before making a commit to
+    check that it adheres to proper style and does not have any obvious flaws.
+
+    `git diff` can also show the difference between two points in a project's
+    history. If a programmer knows the commit where a bug might have been
+    introduced, they can use `git diff` at that point to see changes.
+
+    These two commands are essential to the git workflow for ensuring that
+    quality code is committed, and fixing previous bugs in a project.
