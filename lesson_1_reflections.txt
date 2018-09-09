@@ -81,3 +81,16 @@ How can you use the commands git log and git diff to view the history of files?
 
     These two commands are essential to the git workflow for ensuring that
     quality code is committed, and fixing previous bugs in a project.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Using version control can make you more confident when making potentially
+    un-perfect commits, because a programmer would know that they can always
+    revert the commit in the future. Since programmers can revert commits, they
+    are able to make more "risky" commits now.
+
+    Additionally, features of Git like branches allow programmers to make
+    changes that don't affect the master branch, furthering their confidence.
+    This also allows programmers to be more adventurous when introducing
+    features that may break other aspects of the codebase.
