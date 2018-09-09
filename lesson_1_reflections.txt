@@ -94,3 +94,14 @@ could break something?
     changes that don't affect the master branch, furthering their confidence.
     This also allows programmers to be more adventurous when introducing
     features that may break other aspects of the codebase.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I currently use Git to manage my own personal programming projects, whether
+    they be apps, websites, or games. I have also used Git in conjunction with
+    GitHub in order to collaborate with other programmers and contribute to
+    open-source projects.
+
+    I have never used Git in school before, so I am looking forward to
+    advancing my Git abilities through GitHub classroom in my AP Computer
+    Science A class.
