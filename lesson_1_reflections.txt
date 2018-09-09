@@ -25,3 +25,23 @@ efficient programmer in the long term?
     codebase, I could use git to see in which commit that function was added.
     By doing this, I could more efficiently understand the history and context
     of that function.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+Docs does?
+
+    One advantage of using manual commits is that it forces you to be more
+    intentional with your work. Committing specific changes makes your work
+    more modular and easier to understand. Additionally, manually choosing when
+    to commit enables you to find changes more easily, since each commit is
+    labeled and sorted in order. This means that projects can be more
+    sustainable over time as they become more complex.
+
+    However, one advantage of using automatic saving is that it can be helpful
+    in case of a computer crash or another malfunction. If you are only
+    manually saving your work, some work might be lost if something goes wrong.
+    Automatic saving can also help you be more efficient in the short-term,
+    because you do not have to spend time on commit messages.
+
+    Overall, I think that for long-term project sustainability, manual
+    commits with descriptive commit messages are the most effective method.
