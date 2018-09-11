@@ -36,3 +36,18 @@ repository? What value do you think it offers?
     broken. (If it was, then they could revert to the staged changes using
     `git checkout`.) In summary, the staging area allows for code safety and
     code quality before committing.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+    A programmer can use the staging area to ensure that they only have one
+    commit per logical change by checking the staged diff before committing.
+    Since a programmer can use `git diff --cached` to check the staged changes,
+    they can easily look over the new code and ensure that only one logical
+    change has been made.
+
+    Making only one logical change per commit is important, because it allows
+    for easier reviewing of the Git history, and can make finding bugs and
+    creating solutions simpler. By committing only one logical change at a
+    time, a programmer can see easily what each commit does and when a feature
+    was added.
