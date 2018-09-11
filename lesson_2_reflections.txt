@@ -13,3 +13,26 @@ What happens when you initialize a repository? Why do you need to do it?
     repositories can also be shared on websites like GitHub, enabling for
     easier communication and collaboration. initialization is required for
     these benefits.
+
+How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+    The staging area can serve as a "middleground" for code that you might want
+    to commit, but don't want to commit yet. When using `git add`, code is
+    added to the staging area before committing. You must then call
+    `git commit` afterwards in order to actually commit these files.
+
+    One benefit that this provides is that it furthers Git's premise of only
+    committing quality code. By giving programmers a way to stage code before
+    committing, they can check that the code follows proper guidelines by
+    using `git diff --cached`.
+
+    Additionally, the staging area is helpful when making multiple changes at
+    once. By using a staging area, a programmer can ensure that functioning
+    code will not be lost, without committing, while still working on a new
+    feature. For example, if two changes have to be made to one file, a
+    programmer could make one change, stage it, and then keep working on the
+    second in order to ensure that the first change will not accidentally be
+    broken. (If it was, then they could revert to the staged changes using
+    `git checkout`.) In summary, the staging area allows for code safety and
+    code quality before committing.
