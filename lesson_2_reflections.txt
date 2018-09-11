@@ -51,3 +51,22 @@ change?
     creating solutions simpler. By committing only one logical change at a
     time, a programmer can see easily what each commit does and when a feature
     was added.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+    Branches are very useful for keeping track of different versions of a
+    project. One common use-case for a branch is to introduce a feature that
+    might break other functionality. Instead of committing possibly faulty
+    code to `master`, a separate branch can be used to try out code without
+    impacting the `master` branch.
+
+    Furthermore, branches can be used to keep track of potentially conflicting
+    versions of a project. For instance, if two different features are
+    incompatible with one another, two separate branches can be used to test
+    both of these changes and find the one that is potentially more successful,
+    without worrying about conflicts.
+
+    in summary, branches are useful for keeping a git history clean, and for
+    testing new features without breaking existing code. They are an essential
+    part of the Git workflow, and are necessary for efficient Git usage,
