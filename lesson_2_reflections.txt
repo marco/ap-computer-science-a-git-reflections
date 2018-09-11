@@ -70,3 +70,19 @@ organized? How would branches help?
     in summary, branches are useful for keeping a git history clean, and for
     testing new features without breaking existing code. They are an essential
     part of the Git workflow, and are necessary for efficient Git usage,
+
+How do the diagrams help you visualize the branch structure?
+
+    Although Git is an incredibly helpful tool for programmers, it can become
+    complicated or difficult to understand its purely text-based interface.
+    By using a diagram to visualize branch structure, a programmer can show
+    or see easily when branches diverge from one another, or where they are
+    merged together.
+
+    For instance, if a programmer wanted to know where a feature was
+    introduced, they could use a diagram to check where that feature branch
+    was separated from the `master` branch. This would show them where the
+    branches had differing commits. Furthermore, if the branch became merged,
+    the programmer could see where the branch comes back into `master`. By
+    using a visual diagram, a programmer can have an easier means of
+    considering the Git history, instead of solely relying on text.
