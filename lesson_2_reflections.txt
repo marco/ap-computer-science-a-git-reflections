@@ -1,0 +1,15 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+    When you initialize a repository, the `.git` directory is created in the
+    current repository. Essentially, this enables all of the Git functionality
+    to be used within that repository. This is because it is the `.git`
+    directory that houses the storage mechanism for the Git history. Without
+    the `.git` directory, Git commands would not work because there would be
+    no location to store the history.
+
+    Additionally, initialization is especially important when collaborating.
+    Git functionality is very valuable when working together because it
+    shows clear changes between versions, which ensures quality code. Git
+    repositories can also be shared on websites like GitHub, enabling for
+    easier communication and collaboration. initialization is required for
+    these benefits.
