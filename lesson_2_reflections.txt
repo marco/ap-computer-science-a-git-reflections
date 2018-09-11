@@ -86,3 +86,26 @@ How do the diagrams help you visualize the branch structure?
     the programmer could see where the branch comes back into `master`. By
     using a visual diagram, a programmer can have an easier means of
     considering the Git history, instead of solely relying on text.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+    Merging two branches together combines the changed from both of the
+    branches into one, unified commit. A "merge commit" is used when merging
+    two branches. Merging branches is extremely important because it allows
+    programmers to add new functionality to their projects without
+    jeopardizing the master branch beforehand. For instance, if I wanted to add
+    new functionality to my project, I could make a `feature` branch and then,
+    after reviewing it, merge it into `master` to add it into the main project.
+
+    In a diagram, the two branches are shown intersecting with one another
+    before forming one, unified branch. This is done because when merging
+    branches, the two branches combine their changes into one branch. Then,
+    this unified branch would be used. For example, if I merge a new feature
+    branch into `master`, those two branches now intersect. The commits on
+    the feature branch are added to master, so the master branch has all of the
+    functionality of the new feature branch.
+
+    In summary, merging branches is extremely important because it allows
+    programmers to add features to master after reviewing them on a separate
+    branch safely.
