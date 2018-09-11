@@ -109,3 +109,22 @@ the diagram the way we do?
     In summary, merging branches is extremely important because it allows
     programmers to add features to master after reviewing them on a separate
     branch safely.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+    The main advantage of Git's automatic merging is convenience. By using
+    Git's automatic merging, a programmer can be more efficient, because they
+    do not have to spend time on manually merging. Furthermore, Git's automatic
+    merging will usually be sufficient, so there will be no need for a
+    programmer to bother with manual merging.
+
+    However, manual merging can allow for more fine-grained control when
+    merging. Since merging is usually not an extremely common operation, manual
+    merging does not impact productivity on a large scale. Additionally,
+    sometimes merges lead to conflicts. In this scenario, merging manually is
+    necessary because it is the only way to properly resolve conflicts.
+
+    Both of these resolution methods have their positives and negatives. In
+    order to properly merge a branch, a programmer must consider both of these
+    options.
