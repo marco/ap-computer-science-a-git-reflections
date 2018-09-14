@@ -60,3 +60,19 @@ use one instead of another?
     are used for creating a separate version of someone else's repository,
     cloning is used for downloading an existing remote repository, and branches
     are independent versions of a project within a repository.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+    Having a local copy of the last known state of a remote repository is
+    useful for when a programmer wants to update his local code to also
+    correspond with the remote repository. By pulling the remote repository,
+    a programmer can ensure that they are editing the most up-to-date version
+    of a project.
+
+    Having a copy of the last known state of the remote repository is also a
+    helpful safeguard in case something happens to the remote repository. If
+    the hosting service, like GitHub, goes down, or if the remote repository is
+    somehow accidentally deleted, it is important to have a local copy to work
+    from and re-upload. Mistakes happen, so always having a backup plan is
+    important for efficient programming.
