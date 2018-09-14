@@ -76,3 +76,32 @@ stored locally?
     somehow accidentally deleted, it is important to have a local copy to work
     from and re-upload. Mistakes happen, so always having a backup plan is
     important for efficient programming.
+
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+    Git and GitHub are extremely useful tools for managing version control and
+    collaboration, so I think that it would be more difficult to collaborate
+    without them. However, one possible way programmers could collaborate would
+    be to use a simple email mechanism, in which they email each other new
+    features and the current state of a project in a `zip` file or another
+    archiving format.
+
+    One possible advantage to this would be simplicity. It would be very easy
+    to understand this emailing system, instead of having to learn new software
+    like Git and GitHub. Since most people understand email, but not all
+    understand Git, there would be much less overhead when starting to use this
+    system.
+
+    However, I think that there are a lot of disadvantages to a system like
+    this. For one, Git's committing and history system make seeing a project's
+    changes over time very easy. A long email thread would make this much more
+    confusing and less efficient. Additionally, GitHub can streamline
+    collaboration given its built-in issue and pull-request features. Using
+    these features through basic email would be very challenging. Lastly, Git
+    and GitHub are industry-standards, so convincing others to use a new,
+    inferior system would likely not make very much sense.
+
+    Based on these reasons, I believe that Git and GitHub are the ideal tools
+    for the job, and are currently the most efficient options for version
+    control and collaboration today.
