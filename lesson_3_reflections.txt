@@ -31,3 +31,32 @@ automatically stay up-to-date with your remote repository?
     In summary, Git allows a programmer to decide when to or not to pull. By
     giving programmers this choice, it allows them to be more efficient and
     intentional when pulling from a remote repository.
+
+Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+    Forks, clones, and branches each have their own distinct meanings. "Fork"
+    is a GitHub-centric term used to describe a copy of an existing repository
+    by another user or organization. For example, if I fork someone's
+    repository, it gets added to the fork list, and I am given my own copy to
+    work on.
+
+    Forks are especially useful when making pull requests. In order to make a
+    pull request, a user must have a forked repository to request to merge into
+    the main repository.
+
+    A clone is usually used to refer to a local copy of an existing repository.
+    Whereas forks represent distinct versions of the same repository, clones
+    represent the same exact repositories. Cloning is useful when collaborating
+    with others on the same repository, or when opening an existing remote
+    repository on a separate computer where a local repository doesn't exist.
+
+    A branch is used to represent a different version of code within one
+    repository. Branches can be used when testing and introducing new features.
+    A branch can then be merged into `master` to add it as part of the
+    project's main current state.
+
+    In summary, forks, clones, and branches each have their own uses. Forks
+    are used for creating a separate version of someone else's repository,
+    cloning is used for downloading an existing remote repository, and branches
+    are independent versions of a project within a repository.
