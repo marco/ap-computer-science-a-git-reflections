@@ -1,0 +1,14 @@
+When would you want to use a remote repository rather than keeping all your
+work local?
+
+    I think that there are a few main use-cases for a remote repository. The
+    first is when working in a team. Using a remote repository is much more
+    efficient in this scenario, because it allows multiple team members to
+    collaborate at once. A hosting service like GitHub can make this extremely
+    easy.
+
+    Another use-case would be to back up a repository. If a computer becomes
+    inaccessible or you accidentally deleted a local repository, a remote
+    one can help immensely. By having a remote repository, code can be stored
+    online instead of exclusively locally. If something does happen to your
+    local repository, you can always revert back to the remote one.
