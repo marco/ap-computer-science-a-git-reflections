@@ -105,3 +105,27 @@ and what would be harder?
     Based on these reasons, I believe that Git and GitHub are the ideal tools
     for the job, and are currently the most efficient options for version
     control and collaboration today.
+
+When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+
+    Making changes and committing in a separate branch is extremely useful,
+    because it allows programmers to try new things and test changes without
+    jeopardizing `master`. Code on the `master` branch is ideally supposed to
+    be perfect, so only properly tested code should be added. This is
+    especially important, because future branches will likely branch off of
+    `master`, so a problem there causes a domino effect into all other
+    future branches. Instead, using a separate feature branch allows
+    programmers to take risks and add features without worrying about being
+    perfect. In essence, it increases productivity because it doesn't require
+    programmers to constantly be careful about what they are committing.
+
+    For example, if I wanted to add a feature to a project, I would make a
+    feature branch off of master, and then make my commits there. After
+    sufficiently getting feedback and testing my code, I could then merge that
+    branch into `master`, adding it to the project's primary codebase.
+
+    This branching system is the backbone of the Git workflow. In order to
+    properly use Git and GitHub, a programmer must understand branching and
+    merging. These features allow for increased safety, efficiency, and
+    productivity when programming.
