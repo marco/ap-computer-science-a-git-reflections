@@ -12,3 +12,22 @@ work local?
     one can help immensely. By having a remote repository, code can be stored
     online instead of exclusively locally. If something does happen to your
     local repository, you can always revert back to the remote one.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+    Pulling changes manually allows a programmer to be more intentional about
+    when they are updating their local repository to match the remote
+    repository. For instance, a programmer might not want to pull because they
+    aren't confident in the code from the remote repository, and do not want to
+    break their own code by pulling.
+
+    Sometimes, pulling can lead to conflicts, which are only able
+    to be resolved manually. If Git always stayed up-to-date automatically,
+    there might be lots of conflicts that would constantly need to be resolved.
+    If a programmer didn't have time to resolve these conflicts, this would
+    become an annoyance.
+
+    In summary, Git allows a programmer to decide when to or not to pull. By
+    giving programmers this choice, it allows them to be more efficient and
+    intentional when pulling from a remote repository.
